@@ -1,0 +1,552 @@
+/* MENU BAR SECTION FOR THE HOME PAGE........................................................................... */
+.navsection {
+  height: 10vh;
+  background-color: white;
+  align-content: center;
+}
+.menunarv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.logo {
+  width: 50%;
+  padding-left: 100px;
+}
+
+.menulist {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.menulist button {
+  background-color: green;
+  border: 0px;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+}
+/* END OF MENU BAR SECTION ..................................................................................... */
+
+/* BEGINNING OF SECTION 1.......................................................................................... */
+.section1 {
+  height: 120vh;
+  background-color: rgb(231, 244, 248);
+}
+.colorgreen {
+  color: green;
+}
+.textsection1 button {
+  width: 120px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+.textsection1 {
+  padding-left: 100px;
+  width: 45%;
+  height: 80vh;
+  padding-top: 130px;
+}
+.imagesection2 {
+  width: 45%;
+  height: 80vh;
+}
+.imagesection2 img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  padding-top: 30px;
+}
+.section1parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* staring point of section 2....................................................................... */
+.section2 {
+  height: 60vh;
+}
+.clienttext {
+  text-align: center;
+}
+.clienttext h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.movingimages {
+  height: 20vh;
+  background-color: white;
+}
+.movingimages div {
+  height: 20vh;
+  width: 15%;
+}
+.movingimages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+.movingimages div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.communitytext {
+  text-align: center;
+}
+/* End of section 2............................................................................. */
+
+/* starting point of section 3 ............................................................*/
+.section3 {
+  height: 48vh;
+  background-color: white;
+}
+.section3parent div {
+  width: 30%;
+  height: 45vh;
+  text-align: center;
+  background-color: rgb(231, 244, 248);
+}
+.section3parent div img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.section3parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+/* end of section 3........................................................................ */
+
+/* Beginning of section 4........................................................................... */
+.section4 {
+  height: 80vh;
+  background-color: rgb(231, 244, 248);
+}
+.section4parent div {
+  height: 70vh;
+  width: 45%;
+}
+.section4parent div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding-top: 30px;
+}
+.section4parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.section4parent div p {
+  text-align: justify;
+}
+.unseentext {
+  padding-top: 100px;
+}
+.unseentext button {
+  background-color: green;
+  color: white;
+  width: 80px;
+  height: 30px;
+}
+.pixel {
+  color: green;
+}
+/* end of section 4 ........................................................................... */
+
+/* Beginning of section 5.................................................... */
+.section5 {
+  height: 50vh;
+  background-color: white;
+}
+
+.firstbox {
+  text-align: center;
+  padding-top: 70px;
+  width: 40%;
+  height: 50vh;
+}
+.section5parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.textch {
+  color: green;
+}
+.secondbox {
+  width: 30%;
+  height: 50vh;
+}
+.secondbox1 {
+  width: 100%;
+  height: 25vh;
+}
+.econdbox2 {
+  width: 100%;
+  height: 25vh;
+}
+.secndbox1parent {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: space-evenly;
+}
+.secondbox2parent {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: space-evenly;
+}
+.thirdbox {
+  width: 30%;
+  height: 50vh;
+}
+.thirdbox1 {
+  width: 100%;
+  height: 25vh;
+}
+.thirdbox1parent {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: space-evenly;
+}
+.thirdbox2 {
+  width: 100%;
+  height: 25vh;
+}
+.thirdbox2parent {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: space-evenly;
+}
+/* end of section 5...................................................................... */
+
+/* Beginning of section 6........................................................ */
+.section6 {
+  height: 80vh;
+  background-color: white;
+}
+.headertext {
+  text-align: center;
+}
+.section6paernt div {
+  width: 30%;
+  height: 40vh;
+  gap: 30px;
+}
+.section6paernt div img {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.section6paernt {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.textboxparent div {
+  width: 18%;
+  height: 20vh;
+  transform: translate(0%, -40%);
+  background-color: rgb(231, 244, 248);
+  border-radius: 10px;
+}
+.textboxparent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+.textboxparent div button {
+  background-color: green;
+  color: white;
+}
+/* end of section 6.......................................................................... */
+
+/* Being of footer section ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.footersection {
+  height: 60vh;
+  background-color: black;
+}
+.footersectionparent div {
+  width: 20%;
+  height: 40vh;
+  color: white;
+}
+.footersectionparent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 15px;
+}
+.footerimages img {
+  width: 80%;
+}
+.footersectionparent div h4 {
+  color: white;
+}
+.footersectionparent div p {
+  color: rgb(156, 209, 209);
+}
+/* developer section ................................................................ */
+
+.developercomment {
+  color: white;
+  text-align: center;
+}
+
+/* MEDIA QUERY SECTION ..................................................................... */
+
+/* screen 1024 section.................................................... */
+@media (max-width: 1024px) {
+  .logo {
+    width: 100%;
+  }
+  .menulist {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
+  }
+  .navsection {
+    height: 15vh;
+  }
+  .imagesection2 {
+    width: 100%;
+  }
+  .section1 {
+    height: 100vh;
+  }
+  .imagesection2 img {
+    width: 60%;
+    height: 100vh;
+    object-fit: cover;
+  }
+}
+/* screen 834 section................................................... */
+@media (max-width: 834px) {
+  .logo {
+    width: 100%;
+  }
+  .menulist {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
+  }
+  .navsection {
+    height: 15vh;
+  }
+}
+
+/* screen 768 section .................................................... */
+@media (max-width: 768px) {
+  .logo {
+    width: 100%;
+    padding-left: 10px;
+  }
+  .menulist {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
+  }
+  .navsection {
+    height: 15vh;
+  }
+  /* logo end section............ */
+  .textsection1 {
+    width: 100%;
+    text-align: center;
+    padding-right: 70px;
+    height: 40vh;
+    padding-top: 30px;
+  }
+  .imagesection2 {
+    width: 100%;
+    text-align: center;
+  }
+  .imagesection2 img {
+    width: 60%;
+    height: 50vh;
+    object-fit: cover;
+  }
+  .section1 {
+    height: 110vh;
+  }
+  .section1parent {
+    gap: 12px;
+  }
+  .section3 {
+    height: auto;
+  }
+  .section3parent div {
+    width: 48%;
+    padding-top: 20px;
+  }
+  .section4parent div img {
+    width: 90%;
+  }
+  .section4parent div {
+    width: 100%;
+    height: 50vh;
+    gap: 20px;
+  }
+  .section4 {
+    height: auto;
+    text-align: center;
+    width: 100%;
+  }
+  .section4 div {
+    width: 100;
+  }
+  .section4 {
+    height: auto;
+  }
+  .unseentext p {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 18px;
+  }
+  /* .section5parent div {
+    width: 100%;
+  } */
+  .firstbox {
+    width: 100%;
+    padding-top: 10px;
+    height: 25vh;
+  }
+  .secondbox {
+    width: 100%;
+    height: auto;
+  }
+  .thirdbox {
+    width: 100%;
+  }
+  .section5 {
+    height: auto;
+    padding-top: 5px;
+  }
+  .secondbox2 {
+    padding-bottom: 30px;
+  }
+  /* section 6 start up point */
+  .headertext p {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section6paernt div {
+    width: 100%;
+  }
+  .section6 {
+    height: 200vh;
+  }
+  .textboxparent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    gap: 200px;
+  }
+  .textboxparent div {
+    width: 60%;
+    height: 20vh;
+    transform: translate(30%, -600%);
+    background-color: rgb(231, 244, 248);
+    border-radius: 10px;
+  }
+  .section6paernt div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  /* image query ........................... */
+  .section6paernt div {
+    width: 90%;
+    height: 55vh;
+
+    align-items: center;
+  }
+  .section6paernt div img {
+    width: 90%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .section6paernt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* footer section........................................................... */
+  /*  */
+  /*  */
+  .footersectionparent div {
+    width: 100%;
+    text-align: center;
+  }
+  .footersection {
+    height: 180vh;
+  }
+}
+
+/* screen 480 section........................................................ */
+@media (max-width: 480px) {
+  .logo {
+    width: calc(100% / 1);
+  }
+  .menulist {
+    width: calc(100% / 2);
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
+  }
+  .textsection1 {
+    width: 100%;
+  }
+  .navsection {
+    height: 15vh;
+  }
+}
+
+/* Ennd of Media Query.......................................................................................... */
